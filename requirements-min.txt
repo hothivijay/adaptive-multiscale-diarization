@@ -1,0 +1,10 @@
+# Minimal set: everything except the NeMo front end. Sufficient to run the full
+# synthetic smoke test, train and score over a pre-built embedding cache, and
+# regenerate every table and figure.
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+PyYAML>=6.0
+matplotlib>=3.7
+soundfile>=0.12

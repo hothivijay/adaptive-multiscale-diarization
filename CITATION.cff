@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "Adaptive multi-scale speaker diarization: reference implementation"
+version: 1.0.0
+date-released: 2026-08-17
+license: MIT
+authors:
+  - family-names: Hothi
+    given-names: Vijay
+    orcid: "https://orcid.org/0009-0001-9808-9741"
+    affiliation: "Gujarat Technological University, Ahmedabad, Gujarat, India"
+  - family-names: Gohil
+    given-names: Narendrasinh B.
+    orcid: "https://orcid.org/0000-0003-4885-5844"
+    affiliation: "Government Engineering College, Rajkot, Gujarat, India"
+references:
+  - type: article
+    title: "Context-adaptive temporal scale weighting for overlap-aware far-field speaker diarization"
+    authors:
+      - family-names: Hothi
+        given-names: Vijay
+      - family-names: Gohil
+        given-names: Narendrasinh B.

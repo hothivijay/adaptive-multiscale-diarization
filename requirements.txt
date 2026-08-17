@@ -1,0 +1,18 @@
+# Core -- required for the model, metrics and data code. These alone are enough to
+# run tests/test_pipeline_synthetic.py, which exercises the whole pipeline without
+# NeMo and without the corpus.
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+PyYAML>=6.0
+
+# Audio I/O and figures
+soundfile>=0.12
+matplotlib>=3.7
+
+# Front end -- MarbleNet VAD and TitaNet-Large embeddings (Section 3.8).
+# Needed ONLY by scripts/02_extract_embeddings.py. Large (~3 GB of deps); install
+# separately if you only want to work on the decoder over an existing cache:
+#   pip install "nemo_toolkit[asr]==2.0.0"
+nemo_toolkit[asr]==2.0.0
